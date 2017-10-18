@@ -73,6 +73,8 @@ background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,
 
 
 
+
+
 /*/////// MEDIA ////////*/
 
 img, video, audio, iframe, table, form {
@@ -148,9 +150,24 @@ img, video, audio, iframe, table, form {
 
 /*////////// HEADER //////////*/
 
+header{
+  margin: 0 0 30px;
+}
+
 
 
 /*////////// NAVBAR //////////*/
+
+#navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
 
 
 
